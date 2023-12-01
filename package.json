@@ -15,7 +15,7 @@
     "start:macos": "react-native run-macos",
     "start:windows": "react-native run-windows",
     "reset": "run-script-os",
-    "reset:macos": "yarn clean::android && yarn clean:ios && yarn clean:macos && yarn clean:node && yarn",
+    "reset:macos": "yarn clean:android && yarn clean:ios && yarn clean:macos && yarn clean:node && yarn",
     "reset:windows": "yarn clean:android && yarn clean:windows && yarn clean:node && yarn",
     "clean:node": "shx rm -rf node_modules",
     "clean:ios": "shx rm -rf ios/build ios/Pods ios/Podfile.lock",

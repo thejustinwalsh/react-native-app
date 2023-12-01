@@ -391,8 +391,6 @@ PODS:
     - React-jsi (= 0.72.10)
     - React-logger (= 0.72.10)
     - React-perflogger (= 0.72.10)
-  - RNKeychain (8.1.2):
-    - React-Core
   - RNSVG (14.0.0):
     - React-Core
   - SocketRocket (0.7.0)
@@ -438,7 +436,6 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native-macos/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native-macos/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native-macos/ReactCommon`)
-  - RNKeychain (from `../node_modules/react-native-keychain`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - Yoga (from `../node_modules/react-native-macos/ReactCommon/yoga`)
 
@@ -524,8 +521,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-macos/ReactCommon/react/utils"
   ReactCommon:
     :path: "../node_modules/react-native-macos/ReactCommon"
-  RNKeychain:
-    :path: "../node_modules/react-native-keychain"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   Yoga:
@@ -571,7 +566,6 @@ SPEC CHECKSUMS:
   React-runtimescheduler: 0bc45213a24435960b71daf4cb4b95933b200980
   React-utils: 9097e90f9eb8df45d8ffe687e4c84d3f0c543818
   ReactCommon: 264af40c40bf5632f3773f33334173b746818235
-  RNKeychain: a65256b6ca6ba6976132cc4124b238a5b13b3d9c
   RNSVG: 255767813dac22db1ec2062c8b7e7b856d4e5ae6
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 7ef818e41d5a09eb22b8a8d4ef5a5f9e2eff4292
