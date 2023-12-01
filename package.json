@@ -56,8 +56,6 @@
     "normalize-path": "^3.0.0",
     "pod-install": "^0.1.39",
     "prettier": "^2.4.1",
-    "react-native-flipper": "https://gitpkg.now.sh/facebook/flipper/react-native/react-native-flipper?v0.240.0",
-    "react-native-flipper-databases": "^2.5.1",
     "react-test-renderer": "18.2.0",
     "run-script-os": "^1.1.6",
     "shx": "^0.3.4",
