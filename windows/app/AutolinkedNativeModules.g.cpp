@@ -6,9 +6,6 @@
 // Includes from react-native-svg
 #include <winrt/RNSVG.h>
 
-// Includes from react-native-flipper
-#include <winrt/ReactNativeFlipper.h>
-
 namespace winrt::Microsoft::ReactNative
 {
 
@@ -16,8 +13,6 @@ void RegisterAutolinkedNativeModulePackages(winrt::Windows::Foundation::Collecti
 { 
     // IReactPackageProviders from react-native-svg
     packageProviders.Append(winrt::RNSVG::ReactPackageProvider());
-    // IReactPackageProviders from react-native-flipper
-    packageProviders.Append(winrt::ReactNativeFlipper::ReactPackageProvider());
 }
 
 }

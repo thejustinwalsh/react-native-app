@@ -6,9 +6,5 @@
     <ProjectReference Include="$(ProjectDir)..\..\node_modules\react-native-svg\windows\RNSVG\RNSVG.vcxproj">
       <Project>{7acf84ec-efba-4043-8e14-40b159508902}</Project>
     </ProjectReference>
-    <!-- Projects from react-native-flipper -->
-    <ProjectReference Include="$(ProjectDir)..\..\node_modules\react-native-flipper\windows\ReactNativeFlipper\ReactNativeFlipper.vcxproj">
-      <Project>{8fcc4245-5f33-4111-b222-09f6b20ffdf4}</Project>
-    </ProjectReference>
   </ItemGroup>
 </Project>
