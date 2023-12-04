@@ -29,7 +29,7 @@ import {config} from './tamagui.config';
 function App(): JSX.Element {
   return (
     <TamaguiProvider config={config}>
-      <ScrollView fullscreen backgroundColor="$background" borderRadius="$4">
+      <ScrollView fullscreen backgroundColor="$background">
         <YStack alignSelf="center" padding="$8">
           <YGroup
             alignSelf="center"
