@@ -21,11 +21,10 @@
     "clean:ios": "shx rm -rf ios/build ios/Pods ios/Podfile.lock",
     "clean:android": "shx rm -rf android/build",
     "clean:macos": "shx rm -rf macos/build macos/Pods macos/Podfile.lock",
-    "clean:windows": "shx rm -rf windows/packages windows/x64",
-    "windows": "react-native run-windows"
+    "clean:windows": "shx rm -rf windows/packages windows/x64"
   },
   "dependencies": {
-    "@op-engineering/op-sqlite": "https://github.com/thejustinwalsh/op-sqlite.git#macos-support",
+    "@op-engineering/op-sqlite": "^2.0.16",
     "@tamagui/animations-react-native": "^1.79.2",
     "@tamagui/config": "^1.79.2",
     "@tamagui/lucide-icons": "^1.79.2",
