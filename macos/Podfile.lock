@@ -11,10 +11,6 @@ PODS:
     - ReactCommon/turbomodule/core (= 0.72.10)
   - fmt (6.2.1)
   - glog (0.3.5)
-  - op-sqlite (2.0.16):
-    - React
-    - React-callinvoker
-    - React-Core
   - RCT-Folly (2021.07.22.00):
     - boost
     - DoubleConversion
@@ -402,7 +398,6 @@ DEPENDENCIES:
   - FBLazyVector (from `../node_modules/react-native-macos/Libraries/FBLazyVector`)
   - FBReactNativeSpec (from `../node_modules/react-native-macos/React/FBReactNativeSpec`)
   - glog (from `../node_modules/react-native-macos/third-party-podspecs/glog.podspec`)
-  - "op-sqlite (from `../node_modules/@op-engineering/op-sqlite`)"
   - RCT-Folly (from `../node_modules/react-native-macos/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native-macos/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native-macos/Libraries/TypeSafety`)
@@ -455,8 +450,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-macos/React/FBReactNativeSpec"
   glog:
     :podspec: "../node_modules/react-native-macos/third-party-podspecs/glog.podspec"
-  op-sqlite:
-    :path: "../node_modules/@op-engineering/op-sqlite"
   RCT-Folly:
     :podspec: "../node_modules/react-native-macos/third-party-podspecs/RCT-Folly.podspec"
   RCTRequired:
@@ -533,7 +526,6 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: b13f68533488452e920b5994161d4f64e63afbc2
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 6df0a3d6e2750a50609471fd1a01fd2948d405b5
-  op-sqlite: 37a4cc0a85e375636df02a4aa23394ca948db831
   RCT-Folly: bf7b4921a91932051ebf1c5c2d297154b1fa3c8c
   RCTRequired: 1369228c675228da1310b72e52ccb5433b26a95b
   RCTTypeSafety: 26a3983edc8c30ed2da313cf108135691d7473c7

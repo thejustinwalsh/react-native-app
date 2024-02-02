@@ -24,7 +24,6 @@
     "clean:windows": "shx rm -rf windows/packages windows/x64"
   },
   "dependencies": {
-    "@op-engineering/op-sqlite": "^2.0.16",
     "@tamagui/animations-react-native": "^1.79.2",
     "@tamagui/config": "^1.79.2",
     "@tamagui/lucide-icons": "^1.79.2",
@@ -53,7 +52,7 @@
     "metro-config": "^0.76.8",
     "metro-react-native-babel-preset": "0.76.8",
     "normalize-path": "^3.0.0",
-    "pod-install": "^0.1.39",
+    "pod-install": "^0.2.0",
     "prettier": "^2.4.1",
     "react-test-renderer": "18.2.0",
     "run-script-os": "^1.1.6",
