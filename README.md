@@ -84,8 +84,3 @@ To learn more about React Native, take a look at the following resources:
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 - [React Native Directory](https://reactnative.directory) - find native modules that support all of your target platforms.
-
-# Included Opinionated Stack
-- [tamagui](https://tamagui.dev) - Cross platform React style library and UI kit made faster with an optimizing compiler.
-- [op-sqlite](https://github.com/OP-Engineering/op-sqlite) -A next-next gen SQLite library for react-native by @ospfranco.
-- [react-native-keychain](https://github.com/oblador/react-native-keychain) - Secure Storage Access for React Native.
